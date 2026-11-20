@@ -1,0 +1,569 @@
+    1  git pull https://github.com/kmalaka753/devopsweek1
+    2  git init
+    3  git pull https://github.com/kmalaka753/devopsweek1
+    4  cd ../week1
+    5  ls
+    6  cd ..
+    7  find . -name hellow.sh -ls
+    8  cd ..
+    9  find . -name hellow.sh -ls
+   10  cd Devops/
+   11  ls
+   12  cd week1
+   13  ls
+   14  git push origin main
+   15  history |grep remote
+   16  git remote add origin git@github.com:kmalaka753/devopsweek1.git
+   17  git remote rm origin
+   18  git remote add origin git@github.com:kmalaka753/devopsweek1.git
+   19  git push origin main
+   20  git remote rm origin
+   21  git remote add origin git@github.com:kmalaka753/devopsWeek1.git
+   22  git push origin main
+   23  cd ..
+   24  git clone git@github.com:kmalaka753/devopsWeek1.git
+   25  git clone https://kmalaka753/devopsWeek1.git
+   26  git clone https://github.com/kmalaka753/devopsWeek1.git
+   27  git config
+   28  git config -all
+   29  cd -
+   30  git remote rm origin
+   31  git remote add origin git@github.com:kamalhdsh/devopsWeek1.git
+   32  git push origin main
+   33  cd ../..
+   34  cd devops/week2
+   35  ls
+   36  ls -al
+   37  git pull git@github.com:kamalhdsh/devopsWeek1.git
+   38  ls
+   39  git pull hhtps://github.com:kamalhdsh/devopsWeek1
+   40  git pull https://github.com:kamalhdsh/devopsWeek1
+   41  git pull git@github.com:kamalhdsh/devopsWeek1.git
+   42  ls
+   43  nano hello.sh
+   44  cat hello.sh
+   45  git add .
+   46  git commit .
+   47  git status
+   48  git branch -a
+   49  git log --oneline --all
+   50  git log
+   51  git push -u origin main
+   52  git remote add origin https;//github.com/kamalhdsh/deveopsweek1.git
+   53  git remote add origin https;//github.com/kamalhdsh/deveopsweek1
+   54  git push origin --tags
+   55  git commit
+   56  git log
+   57  git remote add origin https;//github.com/kamalhdsh/deveopsweek
+   58  git remote add origin https://github.com/kamalhdsh/deveopsweek
+   59  git remote add origin https://github.com/kmalaka753/deveopsweek
+   60  git push -u origin main
+   61  mkdir week2tag; cd week2tag
+   62  git init
+   63  git remote add origin https://github.com/kmalaka753/deveopsweek1.git
+   64  git tags
+   65  git tag
+   66  git branch -m main
+   67  git tag
+   68  git fetch --tags
+   69  history
+   70  git fetch --tags
+   71  gti remove rm origin
+   72  git remove rm origin
+   73  git remote add origin git@github.com:kamalhdsh/devopsWeek1.git
+   74  git remote rm origin
+   75  git remote add origin git@github.com:kamalhdsh/devopsWeek1.git
+   76  git fetch --tags
+   77  history
+   78  git log
+   79  ls
+   80  cd ..
+   81  ls
+   82  git log
+   83  git fetch --tags
+   84  git remote rm origin
+   85  git remote add origin git@github.com:kamalhdsh/devopsWeek1.git
+   86  git fetch --tags
+   87  git log
+   88  ls
+   89  cd devops
+   90  pwd
+   91  mkdir week2
+   92  cd week2
+   93  pwd
+   94  git clone https://github.com/kamalhdsh/devopsWeek1.git
+   95  ls
+   96  cd devopsWeek1
+   97  git branch
+   98  pwd
+   99  cd devopsWeek1
+  100  mkdir week2
+  101  cd devops
+  102  mkdir week2
+  103  cd week2
+  104  pwd
+  105  git clone https://github.com/kamalhdsh/devopsWeek1.git
+  106  ls
+  107  cd devopsWeek1
+  108  git branch
+  109  pwd
+  110  ls
+  111  nano hello.sh
+  112  cat hello.sh
+  113  git status
+  114  git add hello.sh
+  115  git push origin main
+  116  git commit -m "Version 3 - updated hello file"
+  117  git push origin main
+  118  gh auth login
+  119  gh auth status
+  120  gh auth login
+  121  gh auth status
+  122  gh auth setup-git
+  123  git status --short
+  124  cat hello.sh
+  125  git commit -m "Version 3 - updated hello file"
+  126  git log -1 --oneline
+  127  git ls-files
+  128  git status --short
+  129  git log -1 --oneline
+  130  git ls-files
+  131  git status --short
+  132  git show HEAD:hello.sh
+  133  git push origin main
+  134  git log --oneline --all
+  135  git log --oneline --follow -- hello.sh
+  136  git log --oneline --follow -- hellow.sh
+  137  git tag ver1 VERSION_1_COMMIT_ID
+  138  git tag ver2 VERSION_2_COMMIT_ID
+  139  git tag ver3 VERSION_3_COMMIT_ID
+  140  git log --oneline --all
+  141  git log --oneline --follow -- hello.sh
+  142  git log --oneline --follow -- hellow.sh
+  143  git show 3cceb33:hello.sh
+  144  git show d3096dc:hello.sh
+  145  git show 3cceb33:hellow.sh
+  146  git tag ver1 3cceb33
+  147  git tag ver3 d3096dc
+  148  git tag
+  149  git reflog --oneline
+  150  git show 3cceb33:hello.sh
+  151  git show 3cceb33:hellow.sh
+  152  git reflog --oneline
+  153  git tag -n
+  154  git show 3cceb33:hellow.sh
+  155  git tag -n
+  156  git show 3cceb33:hellow.sh
+  157  git fetch origin --tags
+  158  git branch -a
+  159  git log --all --oneline --decorate
+  160  git tag -n
+  161  git branch -a
+  162  git log --all --oneline --decorate
+  163  git branch backup-version3
+  164  git branch
+  165  git switch -c build-version2 ver1
+  166  git branch
+  167  nano hellow.sh
+  168  cat hellow.sh
+  169  git add hellow.sh
+  170  git commit -m "Version 2 - updated hello file"
+  171  git log --oneline --decorate -3
+  172  git branch
+  173  git status
+  174  git branch backup-version2
+  175  git show --stat d3096dc
+  176  git show --format=fuller --no-ext-diff d3096dc -- hello.sh hellow.sh
+  177  git status
+  178  git show --stat d3096dc
+  179  git show --format=fuller --no-ext-diff d3096dc -- hello.sh hellow.sh
+  180  ls -lb
+  181  git switch -c integrate-version3
+  182  git cherry-pick d3096dc
+  183  git log --oneline -3
+  184  cat hello.sh
+  185  echo Hello DEVOPS
+  186  echo Nice to be here
+  187  git log --oneline -3
+  188  git tag -n
+  189  git branch backup-integrated
+  190  git branch -v
+  191  git status --short
+  192  git log --graph --oneline --all --decorate
+  193  git diff main..integrate-version3 --stat
+  194  git status --short
+  195  git log --graph --oneline --all --decorate
+  196  git diff main..integrate-version3 --stat
+  197  git switch main
+  198  git merge --no-ff integrate-version3 -m "Merge Version 2 and Version 3 history"
+  199  git push origin main
+  200  git push origin --tags
+  201  git tag -n
+  202  cd ~/devops
+  203  mkdir week2tag
+  204  cd week2tag
+  205  pwd
+  206  git clone https://github.com/kamalhdsh/devopsWeek1.git
+  207  cd devopsWeek1
+  208  git fetch origin --tags
+  209  git tag
+  210  git switch -c tag-test ver1
+  211  git branch
+  212  ls
+  213  cat hellow.sh
+  214  git branch
+  215  nano hellow.sh
+  216  cat hellow.sh
+  217  git status
+  218  git add hellow.sh
+  219  git commit -m "Updated hello file on tag-test branch"
+  220  git push -u origin tag-test
+  221  cd week2
+  222  cd week2tag
+  223  cd ~/devops/week2/devopsWeek1
+  224  git log --graph --oneline --all --decorate
+  225  git tag
+  226  git branch -a
+  227  cd ~/devops/week2tag/devopsWeek1
+  228  git branch
+  229  git log --oneline -3
+  230  git status
+  231  cd ~/devops/week2/devopsWeek1
+  232  pwd
+  233  git switch main
+  234  git pull origin main
+  235  git branch
+  236  git status
+  237  git branch --show-current
+  238  git switch -c CR101
+  239  git branch
+  240  nano cr101.sh
+  241  bash cr101.sh
+  242  git status
+  243  git add cr101.sh
+  244  git commit -m "CR101 - add Bash script"
+  245  git push -u origin CR101
+  246  git branch --show-current
+  247  git switch main
+  248  git pull origin main
+  249  git switch -c CR102
+  250  git branch --show-current
+  251  nano cr102.sh
+  252  bash cr102.sh
+  253  git status
+  254  git add cr102.sh
+  255  git commit -m "CR102 - add Bash script"
+  256  git push -u origin CR102
+  257  cd ~/devops/week2/devopsWeek1
+  258  git branch --show-current
+  259  git switch main
+  260  git pull origin main
+  261  ls
+  262  git branch --show-current
+  263  git merge CR102
+  264  ls
+  265  bash cr102.sh
+  266  git push origin main
+  267  git status
+  268  git push origin --delete CR102
+  269  git branch -d CR102
+  270  git fetch --prune origin
+  271  git branch -r
+  272  cd ~/devops/week2/devopsWeek1
+  273  git switch main
+  274  git pull origin main
+  275  git branch --show-current
+  276  ls
+  277  bash cr101.sh
+  278  bash cr102.sh
+  279  git fetch --prune origin
+  280  git branch -r
+  281  ls -la ~/.ssh
+  282  ssh-keygen -t ed25519 -C "lab3b-second-account" -f ~/.ssh/id_ed25519_lab3b
+  283  eval "$(ssh-agent -s)"
+  284  ssh-add ~/.ssh/id_ed25519_lab3b
+  285  cat ~/.ssh/id_ed25519_lab3b.pub
+  286  nano ~/.ssh/config
+  287  chmod 600 ~/.ssh/config
+  288  ssh -T git@github-lab3b
+  289  mkdir -p ~/devops/lab3b
+  290  cd ~/devops/lab3b
+  291  git clone git@github-lab3b:kamalhdsh/devopsWeek1.git
+  292  cd ~/devops/lab3b/devopsWeek1
+  293  git remote -v
+  294  git config user.name "kmalaka753-droid"
+  295  git config user.email "YOUR_SECOND_ACCOUNT_EMAIL"
+  296  git config user.email "kmalaka753@gmail.com"
+  297  git config user.name
+  298  git config user.email
+  299  git switch main
+  300  git pull origin main
+  301  git switch -c CR103
+  302  git branch --show-current
+  303  nano cr103.sh
+  304  bash cr103.sh
+  305  git status
+  306  git add cr103.sh
+  307  git commit -m "CR103 - added script by second account"
+  308  git log -1 --format='%h | %an <%ae> | %s'
+  309  git push -u origin CR103
+  310  echo "CR104 pushed by kmalaka753-droid"
+  311  cd ~/devops/lab3b/devopsWeek1
+  312  git branch --show-current
+  313  git switch main
+  314  git pull origin main
+  315  git remote -v
+  316  ls -l hellow.sh
+  317  nano hellow.sh
+  318  bash hellow.sh
+  319  git status
+  320  git config user.name
+  321  git config user.email
+  322  git add hellow.sh
+  323  git commit -m "CR104 - update hellow script by second account"
+  324  git log -1 --format='%h | %an <%ae> | %s'
+  325  git push origin main
+  326  cd ~/devops/lab3b/devopsWeek1
+  327  git switch main
+  328  git pull origin main
+  329  bash hellow.sh
+  330  git log -1 --format='%h | %an <%ae> | %s'
+  331  git fetch --prune origin
+  332  git branch -r
+  333  git show origin/CR103:cr103.sh
+  334  #!/bin/bash
+  335  echo "CR103 pushed by kmalaka753-droid"
+  336  mkdir -p ~/devops/lab4
+  337  cd ~/devops/lab4
+  338  git clone https://github.com/kamalhdsh/devsopsProj.git
+  339  cd devsopsProj
+  340  git branch --show-current
+  341  cd devsopsProj
+  342  git branch --show-current
+  343  git clone 
+  344  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  345  ls
+  346  cd -- -devsopsProj
+  347  pwd
+  348  git branch --show-current
+  349  ls -la
+  350  nano count1.sh
+  351  cat count1.sh
+  352  nano count2.sh
+  353  cat count2.sh
+  354  ls count*.sh
+  355  nano count3.sh
+  356  ls count*.sh
+  357  nano count4.sh
+  358  nano count5.sh
+  359  nano count6.sh
+  360  nano count7.sh
+  361  nano count8.sh
+  362  nano count9.sh
+  363  nano count10.sh
+  364  ls count*.sh
+  365  bash count1.sh
+  366  git status
+  367  git add count*.sh
+  368  git status
+  369  git commit -m "Add 10 counting scripts for Lab 4"
+  370  git log -1 --oneline
+  371  git push origin main
+  372  cd ~/devops
+  373  mkdir -p lab5
+  374  cd lab5
+  375  mkdir v1
+  376  cd v1
+  377  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  378  cd -- -devsopsProj
+  379  git switch -c ONE-V1
+  380  git branch
+  381  cd ~/devops/lab5
+  382  mkdir v2
+  383  cd v2
+  384  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  385  cd -- -devsopsProj
+  386  git switch -c ONE-V2
+  387  git branch
+  388  cd ~/devops/lab5/v1/-devsopsProj
+  389  git branch --show-current
+  390  nano count1.sh
+  391  cat count1.sh
+  392  git add count1.sh
+  393  git commit -m "Change count1 output to ONE(1)"
+  394  git push -u origin ONE-V1
+  395  cd ~/devops/lab5/v2/-devsopsProj
+  396  git branch --show-current
+  397  nano count1.sh
+  398  cat count1.sh
+  399  git add count1.sh
+  400  git commit -m "Change count1 output to 1(ONE)"
+  401  git push -u origin ONE-V2
+  402  cd ~/devops/lab5
+  403  mkdir mergeTest
+  404  cd mergeTest
+  405  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  406  cd -- -devsopsProj
+  407  git branch --show-current
+  408  git branch -a
+  409  cd ~/devops/lab5/mergeTest/-devsopsProj
+  410  git branch --show-current
+  411  git merge origin/ONE-V1
+  412  cat count1.sh
+  413  cd ~/devops/lab5/mergeTest/-devsopsProj
+  414  git branch --show-current
+  415  git merge origin/ONE-V2
+  416  cat count1.sh
+  417  nano count1.sh
+  418  cat count1.sh
+  419  git status
+  420  cd ~/devops/lab5/mergeTest/-devsopsProj
+  421  git add count1.sh
+  422  git commit -m "Resolve ONE-V2 merge conflict keeping ONE-V1"
+  423  git push origin main
+  424  cat count1.sh
+  425  git push origin main
+  426  git status
+  427  cd ~/devops/lab5
+  428  mkdir v1-2
+  429  cd v1-2
+  430  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  431  cd -- -devsopsProj
+  432  git switch -c TWO-V1
+  433  git branch
+  434  cat count1.sh
+  435  cd ~/devops/lab5
+  436  200~cd ~/devops/lab5~
+  437  cd v2-2
+  438  cd ~/devops/lab5
+  439  mkdir v2-2
+  440  cd v2-2
+  441  git clone https://github.com/kamalhdsh/-devsopsProj.git
+  442  cd -- -devsopsProj
+  443  git switch -c TWO-V2
+  444  git branch
+  445  cat count2.sh
+  446  cd ~/devops/lab5/v1-2/-devsopsProj
+  447  git branch --show-current
+  448  nano count2.sh
+  449  cat count2.sh
+  450  git add count2.sh
+  451  git commit -m "Change count2 output to TWO(2)"
+  452  git push -u origin TWO-V1
+  453  cd ~/devops/lab5/v2-2/-devsopsProj
+  454  git branch --show-current
+  455  nano count2.sh
+  456  cat count2.sh
+  457  git add count2.sh
+  458  git commit -m "Change count2 output to 2(TWO)"
+  459  git push -u origin TWO-V2
+  460  gh auth status
+  461  gh api user/repository_invitations   --jq '.[] | [.id, .repository.full_name] | @tsv'
+  462  cd ~
+  463  gh repo clone pearse1104/x00220672  ca-prep
+  464  cd ca-prep
+  465  echo "Hello Pearse" > hello.txt
+  466  git add hello.txt
+  467  git commit -m "Add hello test file"
+  468  git push
+  469  cd ~
+  470  gh repo clone pearse1104/YOUR_STUDENT_NUMBER ca-prep
+  471  cd ca-prep
+  472  echo "Hello Pearse" > hello.txt
+  473  git add hello.txt
+  474  git commit -m "Add hello test file"
+  475  git push
+  476  mkdir -p ~/lab6-answers
+  477  cd ~/lab6-answers
+  478  nano q1.sh
+  479  bash ~/lab6-answers/q1.sh
+  480  #bash ~/lab6-answers/q1.sh
+  481  export OWNER="$(gh api user --jq .login)"
+  482  export REPO="$OWNER/lab6"
+  483  export COLLAB="kamalhdsh"
+  484  gh repo view "$REPO" --json nameWithOwner,visibility,defaultBranchRef
+  485  gh api --method PUT "repos/$REPO/collaborators/$COLLAB"   -f permission=push
+  486  gh api "repos/$REPO/invitations"   --jq '.[] | [.invitee.login, .id] | @tsv'
+  487  mkdir -p ~/lab6-answers
+  488  cd ~/lab6-answers
+  489  ls
+  490  nano q2.sh
+  491  bash ~/lab6-answers/q2.sh
+  492  nano q2.sh
+  493  bash ~/lab6-answers/q2.sh
+  494  export OWNER="$(gh api user --jq .login)"
+  495  export REPO="$OWNER/lab6"
+  496  export COLLAB="kamalhdsh"
+  497  bash ~/lab6-answers/q2.sh
+  498  gh api user --jq .login
+  499  nano ~/lab6-answers/q2.sh
+  500  bash ~/lab6-answers/q2.sh
+  501  gh auth login
+  502  gh repo clone YOUR-USERNAME/lab9
+  503  cd lab9
+  504  gh auth login
+  505  gh repo clone kamalhdsh/lab9
+  506  cd lab9
+  507  cat > validate-data.sh <<'EOF'
+#!/usr/bin/env bash
+name="$1"
+mobile="$2"
+
+if [[ ${#name} -le 15 && ${#mobile} -le 10 ]]; then
+  echo PASS
+else
+  echo FAIL
+fi
+EOF
+
+  508  chmod +x validate-data.sh
+  509  pwd
+  510  cd lab9
+  511  mkdir lab9
+  512  cd lab9
+  513  cat > validate-data.sh <<'EOF'
+#!/usr/bin/env bash
+name="$1"
+mobile="$2"
+
+if [[ ${#name} -le 15 && ${#mobile} -le 10 ]]; then
+  echo PASS
+else
+  echo FAIL
+fi
+EOF
+
+  514  chmod +x validate-data.sh
+  515  ./validate-data.sh "Sam Lee" "1234567890"
+  516  ./validate-data.sh "SixteenLetters./validate-data.sh "Sam Lee" "1234567890"" "1234567890"
+  517  ./validate-data.sh "Sam Lee" "12345678901"
+  518  mkdir -p .github/workflows
+  519  nano .github/workflows/basictests.yml
+  520  git add validate-data.sh .github/workflows/basictests.yml
+  521  git commit -m "Add validation script and basic tests"
+  522  git push
+  523  git init -b main
+  524  git remote add origin https://github.com/kamalhdsh/-lab9.git
+  525  git add validate-data.sh .github/workflows/basictests.yml
+  526  git commit -m "Add validation script and basic tests"
+  527  git push -u origin main
+  528  git remote set-url origin https://github.com/kamalhdsh/lab9.git
+  529  cd ~/lab9
+  530  git switch -c test
+  531  nano validate-data.sh
+  532  git add validate-data.sh
+  533  git commit -m "Allow names up to 20 characters"
+  534  git push -u origin test
+  535  nano .github/workflows/basictests.yml
+  536  git add .github/workflows/basictests.yml
+  537  git commit -m "Run tests on main and test branches"
+  538  git push
+  539  git add .github/workflows/basictests.yml
+  540  git commit -m "Run tests on main and test branches"
+  541  git push
+  542  nano .github/workflows/basictests.yml
+  543  git add .github/workflows/basictests.yml
+  544  git commit -m "Update test for 20 character limit"
+  545  git push
+  546  git switch test
+  547  history > history.txt
