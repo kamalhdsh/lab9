@@ -15,7 +15,7 @@ jobs:
           result=$(./validate-data.sh "Sam Lee" "1234567890")
           echo "Test 1: $result"
           test "$result" = "PASS"
-          result=$(./validate-data.sh "SixteenLetters!!" "1234567890")
+          result=$(./validate-data.sh "ThisNameHasMoreThanTwenty" "1234567890")
           echo "Test 2: $result"
           test "$result" = "FAIL"
           result=$(./validate-data.sh "Sam Lee" "12345678901")
