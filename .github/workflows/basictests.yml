@@ -1,0 +1,23 @@
+name: Basic tests
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run validation tests
+        run: |
+          chmod +x validate-data.sh
+          result=$(./validate-data.sh "Sam Lee" "1234567890")
+          echo "Test 1: $result"
+          test "$result" = "PASS"
+          result=$(./validate-data.sh "SixteenLetters!!" "1234567890")
+          echo "Test 2: $result"
+          test "$result" = "FAIL"
+          result=$(./validate-data.sh "Sam Lee" "12345678901")
+          echo "Test 3: $result"
+          test "$result" = "FAIL"
